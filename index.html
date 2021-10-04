@@ -37,6 +37,7 @@
                         <li><a href="#audio">Audio</a></li>
                         <li><a href="#video">Videos</a></li>
                     </ul>
+                    <li><a href="#form">Interest form</a></li>
                 </ul>
             </nav>
         </header>
@@ -147,8 +148,74 @@
                     <source src="media/vlc-record-2021-10-03-18h51m52s-miitennislong.mp4-.mp4" type="video/mp4">
                 </video>
             </section>
+
+            <!--Form-->
+            <section>
+                <h2 id="form">Interest form</h2>
+                <details>
+                    <summary>Interest form</summary>
+                    <p>Interested in joining the team? <i>Please</i> fill out the form below.</p>
+                    
+                    <form>
+                        <!--Contact info-->
+                        <fieldset>
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name"><br>
+                            <label for="email">Name:</label><br>
+                            <input type="text" id="email" name="email"><br>
+                        </fieldset>
+                        <input type="radio" id="join team" name="interest" value="I want to join the team">
+                        <label for="join team">I'd like to join the team</label> <br>
+                        <input type="radio" id="shadow member" name="interest" value="I want to shadow a member">
+                        <label for="shadow member">I'd like to shadow a member</label> <br>
+                        <input type="radio" id="watch a meeting" name="interest" value="I want to watch a meeting">
+                        <label for="watch a meeting">I'd like to watch a meeting</label> <br>
+                        
+                        <p>Favorite of these cars?</p>
+                        <input type="checkbox" id="ferrari" name="ferrari" value="ferrari">
+                        <label for="ferrari">Ferrari</label> <br>
+                        <input type="checkbox" id="mustang" name="mustang" value="mustang">
+                        <label for="mustang">Mustang</label> <br>
+                        <input type="checkbox" id="lambo" name="lambo" value="lambo">
+                        <label for="lambo">lambo</label> <br>
+
+                        <p>When can you go to a meeting?</p>
+                        <label for="meet date">Meeting Dates:</label>
+                        <input type="date" id="meet date" name="meet date">
+                        <br>
+                        <label for="abt">Tell us a little about yourself</label>
+                        <textarea id="abt" name="abt" rows="5" cols="70"></textarea>
+                        <br>
+
+                        <label for="favorite pet">Favorite pet:</label>
+                        <input list="favorite pets" id="favorite pet" name="favorite pet" />
+
+                        <datalist id="favorite pets">
+                            <option value="dogs">
+                            <option value="cats">
+                            <option value="birds">
+                            <option value="other">                  
+                        </datalist>
+
+                        <br>
+                        <label for="favorite shape">Favorite shape:</label>
+                        <select id="favorite shapes">
+                            <option value="triangle">Triangle</option>
+                            <option value="square">Square</option>
+                            <option value="pentagon">Pentagon</option>
+                            <option value="circle">Circle</option>              
+                        </select>
+
+                        <br>
+                        <input type="button" value="It does nothing!">
+                        <br>
+
+                    </form>
+                </details>
+            </section>
         </main>
 
+        <hr>
         <footer>
 
         </footer>
