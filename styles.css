@@ -25,3 +25,7 @@ p {
 em {
     text-decoration: underline dotted red;
 }
+
+strong {
+    text-decoration: red underline overline;
+}
