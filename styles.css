@@ -21,14 +21,11 @@ h3 {
     display: flex;
     background-color: grey;
     width:100%;
-    justify-content: flex-start;
-
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: space-around;
 }
 
-.navBarTop span {
-    
-    text-align: center;
-}
 .navBarTop a {
     float: left;
     color:hsl(0,0%,100%);
