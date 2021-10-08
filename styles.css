@@ -85,3 +85,7 @@ strong {
 section h2 {
     text-decoration: underline white;
 }
+ 
+span em{
+    display:block;
+}
