@@ -15,34 +15,6 @@ h1, h2 {
 h3 {
     color: rgb(255,255,254);
 }
-/* nav bar done with the help of https://www.w3schools.com/howto/howto_js_topnav.asp */
-
-.navBarTop {
-    display: flex;
-    background-color: grey;
-    width:100%;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-content: space-around;
-}
-
-.navBarTop a {
-    float: left;
-    color:hsl(0,0%,100%);
-    text-align: center;
-    padding: 1em 2em 1em 2em;
-    text-decoration: none;
-    font-size: 1.1em;
-    
-}
-
-.navBarTop a:hover {
-    background-color: black;
-    color: white;
-}
-nav{
-    background-color: gray;
-}
 
 img {
     border-style:double;
@@ -63,3 +35,31 @@ em {
 strong {
     text-decoration: red underline overline;
 }
+
+/* nav bar done with the help of https://www.w3schools.com/howto/howto_js_topnav.asp */
+.navBarTop {
+    display: flex;
+    background-color: grey;
+    width:100%;
+    justify-content: center;
+    align-content: space-around;    
+}
+
+.navBarTop a {
+    float: left;
+    color:hsl(0,0%,100%);
+    text-align: center;
+    padding: 1em 2em 1em 2em;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+}
+
+.navBarTop a:hover {
+    background-color: black;
+}
+
+.navBarTop a:visited {
+    color:hotpink;
+}
+/*Hopefully use the flexbox ^^ eventually*/
