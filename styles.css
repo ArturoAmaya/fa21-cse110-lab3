@@ -16,3 +16,12 @@ img {
     border-color:black;
     border-radius:30%;
 }
+
+p {
+    color: black;
+    text-align:start;
+}
+
+em {
+    text-decoration: underline dotted red;
+}
