@@ -15,12 +15,21 @@ h1, h2 {
 h3 {
     color: rgb(255,255,254);
 }
+/* nav bar done with the help of https://www.w3schools.com/howto/howto_js_topnav.asp */
+nav{
+    background-color: gray;
+}
+#navbar {
+    overflow: hidden;
+    background-color: gray;
+}
 
 img {
     border-style:double;
     border-color:black;
     border-radius:30%;
 }
+
 
 p {
     color: black;
