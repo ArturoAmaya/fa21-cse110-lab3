@@ -25,6 +25,7 @@ img {
     width: 20vw;
     max-height: 200px;
     max-width: 5cm;
+    min-width: 3cm;
     padding-top: 0.4em;
     padding-bottom: 0.4em;
     padding-left: 0.4em;
@@ -53,7 +54,7 @@ em {
     text-decoration: red underline overline;
     display:inline-block;
     text-align: center;
-    padding: 2em  0;
+    padding: 2em 0;
 }
 
 /* nav bar done with the help of https://www.w3schools.com/howto/howto_js_topnav.asp */
