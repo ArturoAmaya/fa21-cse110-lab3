@@ -2,10 +2,17 @@
 body {
     background-color: #00ffff;
 }
+
 h1, h2 {
     color: white;
 }
 
 h3 {
     color: rgb(255,255,254);
+}
+
+img {
+    border-style:double;
+    border-color:black;
+    border-radius:30%;
 }
