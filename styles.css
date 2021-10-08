@@ -16,11 +16,17 @@ h3 {
     color: rgb(255,255,254);
 }
 /* nav bar done with the help of https://www.w3schools.com/howto/howto_js_topnav.asp */
-nav{
-    background-color: gray;
-}
-#navbar {
+
+.navBarTop {
     overflow: hidden;
+}
+
+.navBarTop a {
+    float: left;
+    color:hsl(0,0%,100%);
+    
+}
+nav{
     background-color: gray;
 }
 
