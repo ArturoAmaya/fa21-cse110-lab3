@@ -1,1 +1,1 @@
-https://arturoamaya.github.io/Lab2/
+https://arturoamaya.github.io/fa21-cse110-lab3/
