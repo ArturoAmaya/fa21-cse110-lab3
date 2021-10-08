@@ -17,7 +17,7 @@ h3 {
 }
 
 img {
-    border-style:double;
+    border-style:ridge;
     border-color:black;
     border-width:0.5em;
     border-radius:30%;
@@ -25,6 +25,10 @@ img {
     width: 20vw;
     max-height: 200px;
     max-width: 5cm;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.4em;
+    padding-right:0.4em;
 }
 
 
