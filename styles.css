@@ -41,6 +41,10 @@ video {
     margin-top: 10px;
 }
 
+audio {
+    position: relative;
+    top: 20px; left: 40px;
+}
 p {
     color: black;
     text-align:start;
