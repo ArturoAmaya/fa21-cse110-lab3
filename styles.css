@@ -18,14 +18,22 @@ h3 {
 /* nav bar done with the help of https://www.w3schools.com/howto/howto_js_topnav.asp */
 
 .navBarTop {
-    overflow: hidden;
+    display: flex;
+    background-color: grey;
+    width:100%;
+    justify-content: flex-start;
+
 }
 
+.navBarTop span {
+    
+    text-align: center;
+}
 .navBarTop a {
     float: left;
     color:hsl(0,0%,100%);
-    text-align: center;
-    padding: 0.5% 1% 0.5% 1%;
+    text-align: right;
+    padding: 1em 2em 1em 2em;
     
 }
 nav{
