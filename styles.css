@@ -49,8 +49,11 @@ em {
     text-decoration: underline dotted red;
 }
 
-strong {
+.strongdiv {
     text-decoration: red underline overline;
+    display:inline-block;
+    text-align: center;
+    padding: 2em 0;
 }
 
 /* nav bar done with the help of https://www.w3schools.com/howto/howto_js_topnav.asp */
