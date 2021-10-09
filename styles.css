@@ -58,6 +58,9 @@ a:active{
     color: white;
 }
 
+#prev-business{
+    text-decoration: underline yellowgreen;
+}
 p {
     color: black;
     text-align:start;
