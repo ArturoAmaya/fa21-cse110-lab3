@@ -92,7 +92,6 @@ em {
 .navBarTop a:visited {
     color:hotpink;
 }
-/*Hopefully use the flexbox ^^ eventually*/
 
 section h2 {
     text-decoration: underline white;
@@ -113,18 +112,23 @@ span em{
     align-content: space-around;
 }
 
+/*auto auto auto idea based on https://www.w3schools.com/css/css_grid.aspv*/
 .grid-container{
     display:grid;
     grid-template-columns: auto auto auto;
     column-gap: 50px;
+    row-gap:70px;
     justify-items: start;
 }
-.grid-item {
-    justify-content: right;
+.grid-item1 {
+    grid-column-start:1;
+    grid-column-end:3;
 }
-.grid-container p{
+
+
+/*.grid-container p{
     display: inline;
-}
+}*/
 
 @media screen and (max-width: 1205px) {
     .big-screen{
