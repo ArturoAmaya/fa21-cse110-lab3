@@ -1,8 +1,11 @@
 /* 99% of the style will be included here */
+
+
 body {
     background-color: #00ffff;
     
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -98,3 +101,17 @@ section h2 {
 span em{
     display:block;
 }
+
+.small-screen {
+    display:none;
+}
+
+@media screen and (max-width: 1205px) {
+    .big-screen{
+        display:none;
+    }
+
+    .small-screen{
+        display:inline;
+    }
+  }
