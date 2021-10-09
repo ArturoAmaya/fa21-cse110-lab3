@@ -60,7 +60,7 @@ em {
 
 .strongdiv {
     text-decoration: red underline overline;
-    display:inline-block;
+    display:block;
     text-align: center;
     padding: 2em 0;
 }
@@ -112,6 +112,20 @@ span em{
     justify-content: space-evenly;
     align-content: space-around;
 }
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    justify-items: start;
+}
+.grid-item {
+    justify-content: right;
+}
+.grid-container p{
+    display: inline;
+}
+
 @media screen and (max-width: 1205px) {
     .big-screen{
         display:none;
