@@ -48,12 +48,20 @@ audio {
     position: relative;
     top: 20px; left: 40px;
 }
+
 p {
     color: black;
     text-align:start;
     font-size: 14pt;
 }
 
+h3 ~ b {
+    color:red;
+}
+
+h3 + p {
+    color:tomato;
+}
 em {
     text-decoration: underline dotted red;
 }
@@ -96,8 +104,11 @@ em {
 section h2 {
     text-decoration: underline white;
 }
- 
-span em{
+
+div.attendance{
+    background-color: tomato;
+}
+span > em{
     display:block;
 }
 
@@ -134,7 +145,7 @@ span em{
     .big-screen{
         display:none;
     }
-
+    
     .small-screen{
         display:inline;
     }
