@@ -54,6 +54,10 @@ audio {
     top: 20px; left: 40px;
 }
 
+a:active{
+    color: white;
+}
+
 p {
     color: black;
     text-align:start;
@@ -101,6 +105,7 @@ em {
 .navBarTop a:hover {
     background-color: black;
 }
+
 
 .navBarTop a:visited {
     color:hotpink;
