@@ -106,6 +106,12 @@ span em{
     display:none;
 }
 
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
 @media screen and (max-width: 1205px) {
     .big-screen{
         display:none;
