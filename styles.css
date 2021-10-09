@@ -1,5 +1,8 @@
 /* 99% of the style will be included here */
-
+/* left some text otherwise un-styled so that this actually does something*/
+*{
+    color:black;
+}
 
 body {
     background-color: #00ffff;
