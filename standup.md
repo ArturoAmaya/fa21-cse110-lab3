@@ -1,0 +1,78 @@
+# Standup Meeting Notes
+## Insert Date
+
+## What did you do yesterday?
+1. Teammate 1
+   - Task 1
+   - Task 2
+   - Task 3
+2. Teammate 2
+   - Task 1
+   - Task 2
+   - Task 3
+3. Teammate 3
+   - Task 1
+   - Task 2
+   - Task 3
+4. Teammate 4
+   - Task 1
+   - Task 2
+   - Task 3
+5. Teammate 5
+   - Task 1
+   - Task 2
+   - Task 3
+6. Teammate 6
+   - Task 1
+   - Task 2
+   - Task 3
+## What are you doing today?
+1. Teammate 1
+   - Task 1
+   - Task 2
+   - Task 3
+2. Teammate 2
+   - Task 1
+   - Task 2
+   - Task 3
+3. Teammate 3
+   - Task 1
+   - Task 2
+   - Task 3
+4. Teammate 4
+   - Task 1
+   - Task 2
+   - Task 3
+5. Teammate 5
+   - Task 1
+   - Task 2
+   - Task 3
+6. Teammate 6
+   - Task 1
+   - Task 2
+   - Task 3
+## What is blocking your progress?
+1. Teammate 1
+   - Block 1
+   - Block 2
+   - Block 3
+2. Teammate 2
+   - Block 1
+   - Block 2
+   - Block 3
+3. Teammate 3
+   - Block 1
+   - Block 2
+   - Block 3
+4. Teammate 4
+   - Block 1
+   - Block 2
+   - Block 3
+5. Teammate 5
+   - Block 1
+   - Block 2
+   - Block 3
+6. Teammate 6
+   - Block 1
+   - Block 2
+   - Block 3
